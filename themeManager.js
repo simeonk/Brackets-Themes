@@ -57,6 +57,13 @@ define(function (require, exports, module) {
     */
     themeManager.applyThemes = function () {
         var editor = EditorManager.getActiveEditor();
+
+        // Make sure the menu is up to date
+        syncSelection(true);
+
+        // Make sure we update the preferences when a new theme is selected.
+        preferences.setValue("theme", themeManager._selected);
+
         if (!editor || !editor._codeMirror) {
             return;
         }
@@ -82,9 +89,6 @@ define(function (require, exports, module) {
         CodeMirror.defaults.theme = newThemes;
         cm.setOption("theme", newThemes);
 
-        // Make sure the menu is up to date
-        syncSelection(true);
-
 
         // If the css has not yet been loaded, then we load it so that
         // styling is properly applied to codemirror
@@ -101,9 +105,6 @@ define(function (require, exports, module) {
 
 
         return $.when.apply($, styleDeferred).always(function() {
-            // Make sure we update the preferences when a new theme is selected.
-            preferences.setValue("theme", themeManager._selected);
-
             $('body').removeClass(currentThemes.replace(' ', ',')).addClass(newThemes.replace(' ', ','));
             cm.refresh();
             $(ExtensionUtils).trigger("Themes.themeChanged", [themes]);
