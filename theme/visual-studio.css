@@ -62,7 +62,7 @@
 
 
 .cm-s-visual-studio.CodeMirror .cm-atom { color: blue; }
-.cm-s-visual-studio.CodeMirror .cm-qualifier { color: #800000; }
+.cm-s-visual-studio.CodeMirror .cm-qualifier { color: #ff6a7a; }
 
 /*CodeMirror does not add notation for css...  Which would be really nice. */
 /*.cm-s-visual-studio.CodeMirror .cm-property { color: red; }*/
