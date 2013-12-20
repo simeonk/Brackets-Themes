@@ -6,7 +6,7 @@
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-gutters
 {
-    background-color: #ffffff;
+    background-color: #f6f6f6;
 }
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-linenumber
@@ -75,5 +75,5 @@
 .cm-s-visual-studio.CodeMirror .cm-variable-2 { color: black; }
 .cm-s-visual-studio.CodeMirror .cm-tag { color: #ff6a7a; }
 .cm-s-visual-studio.CodeMirror .cm-attribute { color: #4f8499; }
-.cm-s-visual-studio.CodeMirror .cm-property { color: black; }
+.cm-s-visual-studio.CodeMirror .cm-property { color: green; }
 
