@@ -11,7 +11,7 @@
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-linenumber
 {
-    color: #ddd;
+    color: #ded7c6;
     background-color: #fff8e8;
 }
 
@@ -23,7 +23,7 @@
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-linebackground
 {
-    outline: 2px solid #dddddd;
+    outline: 2px solid #ded7c6;
     z-index: 3;
 }
 
@@ -68,7 +68,7 @@
 /*.cm-s-visual-studio.CodeMirror .cm-property { color: red; }*/
 
 .cm-s-visual-studio.CodeMirror .cm-keyword { color: #000; }
-.cm-s-visual-studio.CodeMirror .cm-comment { color: #e1e1e1; }
+.cm-s-visual-studio.CodeMirror .cm-comment { color: #ded7c6; }
 .cm-s-visual-studio.CodeMirror .cm-string {color: #2bccd0;}
 .cm-s-visual-studio.CodeMirror .cm-string-2 {color: #2bccd0;}
 .cm-s-visual-studio.CodeMirror .cm-variable { color: #000; }
