@@ -77,3 +77,4 @@
 .cm-s-visual-studio.CodeMirror .cm-attribute { color: #5892a9; }
 .cm-s-visual-studio.CodeMirror .cm-property { color: black; }
 
+.CodeMirror-activeline-background {background: #ffffff;}
