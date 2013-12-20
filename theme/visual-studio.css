@@ -6,13 +6,13 @@
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-gutters
 {
-    background-color: #f6f6f6;
+    background-color: #fff8e8;
 }
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-linenumber
 {
     color: #ddd;
-    background-color: #f6f6f6;
+    background-color: #fff8e8;
 }
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-matchingbracket
