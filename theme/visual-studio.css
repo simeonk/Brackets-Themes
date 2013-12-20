@@ -61,19 +61,19 @@
 }
 
 
-.cm-s-visual-studio.CodeMirror .cm-atom { color: blue; }
+.cm-s-visual-studio.CodeMirror .cm-atom { color: #2bccd0; }
 .cm-s-visual-studio.CodeMirror .cm-qualifier { color: #ff6a7a; }
 
 /*CodeMirror does not add notation for css...  Which would be really nice. */
 /*.cm-s-visual-studio.CodeMirror .cm-property { color: red; }*/
 
-.cm-s-visual-studio.CodeMirror .cm-keyword { color: blue; }
-.cm-s-visual-studio.CodeMirror .cm-comment { color: #eeeeee; }
+.cm-s-visual-studio.CodeMirror .cm-keyword { color: #2bccd0; }
+.cm-s-visual-studio.CodeMirror .cm-comment { color: #e1e1e1; }
 .cm-s-visual-studio.CodeMirror .cm-string {color: #2bccd0;}
 .cm-s-visual-studio.CodeMirror .cm-string-2 {color: #2bccd0;}
-.cm-s-visual-studio.CodeMirror .cm-variable { color: #444444; }
-.cm-s-visual-studio.CodeMirror .cm-variable-2 { color: #444444; }
+.cm-s-visual-studio.CodeMirror .cm-variable { color: #666666; }
+.cm-s-visual-studio.CodeMirror .cm-variable-2 { color: #666666; }
 .cm-s-visual-studio.CodeMirror .cm-tag { color: #ff6a7a; }
-.cm-s-visual-studio.CodeMirror .cm-attribute { color: #4f8499; }
+.cm-s-visual-studio.CodeMirror .cm-attribute { color: #5892a9; }
 .cm-s-visual-studio.CodeMirror .cm-property { color: black; }
 
