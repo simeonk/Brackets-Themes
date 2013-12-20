@@ -12,7 +12,7 @@
 .cm-s-visual-studio.CodeMirror .CodeMirror-linenumber
 {
     color: #ddd;
-    background-color: #fefefe;
+    background-color: #f6f6f6;
 }
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-matchingbracket
@@ -71,9 +71,9 @@
 .cm-s-visual-studio.CodeMirror .cm-comment { color: #eeeeee; }
 .cm-s-visual-studio.CodeMirror .cm-string {color: #2bccd0;}
 .cm-s-visual-studio.CodeMirror .cm-string-2 {color: #2bccd0;}
-.cm-s-visual-studio.CodeMirror .cm-variable { color: black; }
-.cm-s-visual-studio.CodeMirror .cm-variable-2 { color: black; }
+.cm-s-visual-studio.CodeMirror .cm-variable { color: #444444; }
+.cm-s-visual-studio.CodeMirror .cm-variable-2 { color: #444444; }
 .cm-s-visual-studio.CodeMirror .cm-tag { color: #ff6a7a; }
 .cm-s-visual-studio.CodeMirror .cm-attribute { color: #4f8499; }
-.cm-s-visual-studio.CodeMirror .cm-property { color: green; }
+.cm-s-visual-studio.CodeMirror .cm-property { color: black; }
 
