@@ -1,18 +1,18 @@
 .cm-s-visual-studio.CodeMirror
 {
     background-color: #ffffff;
-    color:#666;
+    color:#555;
 }
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-gutters
 {
-    background-color: #fff8e8;
+    background-color: #eee;
 }
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-linenumber
 {
-    color: #ded7c6;
-    background-color: #fff8e8;
+    color: #ddd;
+    background-color: #eee;
 }
 
 .cm-s-visual-studio.CodeMirror .CodeMirror-matchingbracket
